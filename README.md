@@ -15,6 +15,7 @@ Overview
 -Links
 https://www.frontendmentor.io/challenges
 w3schools.com 
+https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages
 
 I am starting my first project that I found on the internet, through the website Frontend Mentor.
 I do not have a laptop, I will be programming everything from my tablet which has a keyboard, mouse and stylus.
