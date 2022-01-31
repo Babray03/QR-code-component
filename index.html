@@ -4,78 +4,100 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
   <script src="js/index.js"></script>
   <title>QR_Code_Component</title>
-  
+
   <style>
+
+    /* Typography */
+    h2 {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700px;
+      margin: 2rem 1rem 1rem 1rem;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    p {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 400px;
+      margin: 0rem 1rem 1rem 2rem;
+      word-wrap: break-word;
+      text-align: center;
+      color: hsl( 220, 15%, 55%);
+    }
     /* Layout */
-    *{
-      margin:0;
-      padding:0;
+    * {
+      margin: 0;
+      padding: 0;
       box-sizing: border-box;
     }
-    body{
-      font-size:15px;
-      background-color:black;
+    body {
+      font-size: 15px;
+      background-color: hsl(212, 45%, 89%);
     }
-    .container{
-      height:100%;
-      width:25rem;
+    .container {
+      height: 100%;
+      width: 25rem;
       background-color: hsl(0, 0%, 100%);
-      display:flex;
-      display:inline-block;
-      border-radius:1rem;
+      display: flex;
+      flex-direction: column;
+      border-radius: 1rem;
       /*
       display:grid;
       grid-template-columns: repeat(auto-fit);
       */
       padding: 1rem 1rem;
-      margin:1rem;
-    }
-    .section__a{
-      max-width:100%;
-      height:25rem;
-      padding:0rem 0rem;
-      display:flex;
-      
-    }
-    .QR__img {
-       max-width:100%;
-       height:auto;
-       padding:0;
-       margin:0;
-       border-radius: 1rem;
-       
+      margin: 1rem;
 
-      
     }
-    
-    .section__b{
-     max-width:75%;
-      height:10rem;
-      padding:0rem 1.5rem;
-      display:flex;
-      
-      
+    .section__a {
+      max-width: 100%;
+      height: 25rem;
+      padding: 0rem 0rem;
+      display: flex;
+
+
+
+      .section__b {
+      max-width: 75%;
+      height: 10rem;
+      padding: 0rem 1.5rem;
+      display: flex;
+
+
     }
-    
-    .section__c{
-      
-    }
-  </style>
+    /* Image */
+
+  }
+  .QR__img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border-radius: 1rem;
+
+  }
+</style>
 </head>
 <body>
-  
-  <div class="container">
-  <div class="section__a">
-    <img src="" alt="QR Code Component" class="QR__img">
-  </div>
-  
-  
-    <h2> Improve your front-end skills by building projects</h2>
-  
-    <p> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
-  </div>
-  
+
+<div class="container">
+<div class="section__a">
+  <!-- Image source removed -->
+<img src="" alt="QR Code Component" class="QR__img">
+</div>
+
+
+<h2> Improve your front-end <br> skills by building projects</h2>
+
+<p>
+Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br>  the next level.
+</p>
+</div>
+
 </body>
 </html>
